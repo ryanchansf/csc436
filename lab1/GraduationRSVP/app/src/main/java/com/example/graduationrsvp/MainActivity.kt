@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GradScreen(modifier: Modifier = Modifier) {
     Text(
-        text = "Graduation Announcement",
+        text = stringResource(R.string.graduation_announcement),
         fontSize = 50.sp,
         color = Color.Red,
         textAlign = TextAlign.Center,
