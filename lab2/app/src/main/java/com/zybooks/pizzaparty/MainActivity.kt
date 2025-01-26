@@ -86,7 +86,6 @@ fun PizzaPartyScreen(modifier: Modifier = Modifier) {
             radioOptions = listOf("Light", "Medium", "Ravenous"),
             selectedOption = hungerLevel,
             onSelected = { hungerLevel = it },
-            selectedValue = "Medium",
             modifier = modifier
         )
         Text(
@@ -96,7 +95,7 @@ fun PizzaPartyScreen(modifier: Modifier = Modifier) {
         )
         Button(
             onClick = {
-                // Not implemented yet
+                totalPizzas = calculateNumPizzas(numPeopleInput.toInt(), hungerLevel)
             },
             modifier = modifier.fillMaxWidth()
         ) {
