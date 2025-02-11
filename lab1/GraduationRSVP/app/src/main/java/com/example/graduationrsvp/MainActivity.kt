@@ -1,4 +1,4 @@
-package com.zybooks.graduationrsvp
+package com.example.graduationrsvp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,9 +17,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.example.graduationrsvp.R
 import com.example.graduationrsvp.ui.theme.GraduationRSVPTheme
-//import com.zybooks.graduationrsvp.ui.theme.GraduationRSVPTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
